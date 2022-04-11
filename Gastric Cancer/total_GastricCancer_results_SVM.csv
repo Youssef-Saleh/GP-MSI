@@ -1,0 +1,2 @@
+Patient to be predicted/left out,Poor Survival Subpopulation,Moderate Survival Subpopulation,Good Survival Subpopulation,Predicted Survivability,Surv(months),Survival Status,Number of Clusters,SAM Features for each tSNE run on new subset
+1,81.97536200561919,14.76118435271234,3.263453641668468,Poor,34.233333333333334,0,4,"Significant Features : m/z = [3374, 3445, 12354, 3482, 11355, 11315, 3409, 3374, 3445, 3711, 3670, 3482, 3598, 3516, 3330, 13166]"
