@@ -20,7 +20,7 @@ samr.obj=samr(d, resp.type="Two class unpaired", nperms=200)
 delta.table <- samr.compute.delta.table(samr.obj)
 }
 
-delta=   1.801753608   #(delta.table) this is the value in delta.table(FDR <0.001)
+delta=   0.7784554684   #(delta.table) this is the value in delta.table(FDR <0.001)
 
 
 # Plot the significant proteins

@@ -1,2 +1,5 @@
 Patient to be predicted/left out,Poor Survival Subpopulation,Moderate Survival Subpopulation,Good Survival Subpopulation,Predicted Survivability,Surv(months),Survival Status,Number of Clusters,SAM Features for each tSNE run on new subset
-1,81.97536200561919,14.76118435271234,3.263453641668468,Poor,34.233333333333334,0,4,"Significant Features : m/z = [3374, 3445, 12354, 3482, 11355, 11315, 3409, 3374, 3445, 3711, 3670, 3482, 3598, 3516, 3330, 13166]"
+1,81.97536201,14.76118435,3.263453642,Poor,34.23333333,0,4,"Significant Features : m/z = [3374, 3445, 12354, 3482, 11355, 11315, 3409, 3374, 3445, 3711, 3670, 3482, 3598, 3516, 3330, 13166]"
+2,7.971014493,0.0,92.02898551,High,0.666666667,1,3,"Significant Features : m/z = [3374, 3445, 3409, 3711, 3670, 3482, 3516, 3598, 13166]"
+3,93.5520362,1.131221719,5.316742081,Poor,0.433333333,0,4,"Significant Features : m/z = [3711, 3374, 3445, 3409, 3670, 3482, 13166, 3598, 3516, 10843]"
+4,0.0,100.0,0.0,High,45.0,0,8,"Significant Features : m/z = [3711, 3374, 3445, 3409, 3670, 3482, 13166, 3598, 3516, 10843]"
