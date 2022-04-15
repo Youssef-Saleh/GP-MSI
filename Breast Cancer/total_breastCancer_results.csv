@@ -1,5 +1,0 @@
-Patient to be predicted/left out,Metastasis-Free Subpopulation,Metastasis Subpopulation,Predicted Metastasis,Metastasis Status,Number of Clusters,SAM Features for each tSNE run on new subset
-23,97.31743666169895,2.682563338301043,2,2,8,"Significant Features : m/z = [6650, 6277, 11652, 6980, 11310, 4999, 7009, 9265, 4620]"
-4,29.73874374652585,70.26125625347414,2,1,7,"Significant Features : m/z = [6277, 6650, 11652, 11310, 6980, 7009, 6224, 9265, 4620]"
-1,33.667781493868446,66.33221850613154,2,1,8,"Significant Features : m/z = [6650, 4999, 6277, 11652, 4620]"
-2,100.0,0.0,1,1,8,"Significant Features : m/z = [4965, 4999, 5171, 6980, 5067, 9265, 11652, 7009, 4620]"
