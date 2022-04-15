@@ -37,12 +37,12 @@ delta=   1.801753608   #(delta.table) this is the value in delta.table(FDR <0.00
   Significant_Proteins_LO <- tryCatch(
     {
       significant_proteins <- subset(siggenes.table$genes.lo , select=c("Gene ID"))
-      write_json(significant_proteins, "significant_gastric_proteins.json")
+      write_json(significant_proteins, "significant_breast_proteins.json")
     },
     error = function(e){
       print(e)
       significant_proteins <- list(list())
-      write_json(significant_proteins, "significant_gastric_proteins.json")
+      write_json(significant_proteins, "significant_breast_proteins.json")
     }
   )
   Significant_Proteins_LO
@@ -51,12 +51,12 @@ delta=   1.801753608   #(delta.table) this is the value in delta.table(FDR <0.00
   Significant_Proteins_HI <- tryCatch(
     {
       significant_proteins_up <- subset(siggenes.table$genes.up , select=c("Gene ID"))
-      write_json(significant_proteins_up, "significant_gastric_proteins_up.json")
+      write_json(significant_proteins_up, "significant_breast_proteins_up.json")
     },
     error = function(e){
       print(e)
       significant_proteins_up <- list(list())
-      write_json(significant_proteins_up, "significant_gastric_proteins.json")
+      write_json(significant_proteins_up, "significant_breast_proteins_up.json")
     }
   )
   

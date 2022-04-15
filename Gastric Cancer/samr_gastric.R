@@ -56,7 +56,7 @@ Significant_Proteins_HI <- tryCatch(
   error = function(e){
     print(e)
     significant_proteins_up <- list(list())
-    write_json(significant_proteins_up, "significant_gastric_proteins.json")
+    write_json(significant_proteins_up, "significant_gastric_proteins_up.json")
   }
 )
 
