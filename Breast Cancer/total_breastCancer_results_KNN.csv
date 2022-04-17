@@ -1,0 +1,13 @@
+Patient to be predicted/left out,Metastasis-Free Subpopulation,Metastasis Subpopulation,Predicted Metastasis,Metastasis Status,Number of Clusters,SAM Features for each tSNE run on new subset
+1,58.23114084,41.76885916,2,1,8,"Significant Features : m/z = [6650, 4999, 6277, 11652]"
+2,74.29742389,25.70257611,2,1,8,"Significant Features : m/z = [4965, 4999, 5171, 6980, 5067, 9265]"
+3,51.61290323,48.38709677,2,1,5,"Significant Features : m/z = [4999, 6980, 4965, 11652, 5067, 5171]"
+4,87.99332963,12.00667037,2,1,5,"Significant Features : m/z = [4965, 5171, 4999, 5067]"
+5,75.94465141,24.05534859,2,1,7,"Significant Features : m/z = [4965, 4999, 5171]"
+6,54.92125984,45.07874016,2,1,8,"Significant Features : m/z = [6277, 11652, 6650, 6980]"
+7,78.2078853,21.7921147,2,1,7,"Significant Features : m/z = [4999, 4965, 5067, 5171, 4620]"
+8,58.17378498,41.82621502,2,1,6,"Significant Features : m/z = [6650, 6277, 4999, 6224, 4965, 6980, 7009, 5067, 5171, 9265, 14011, 8568]"
+9,67.39409499,32.60590501,2,1,8,"Significant Features : m/z = [11652, 6650, 4999, 6277, 8603, 11310, 11723, 8645, 6980, 4965, 11831, 5067, 8568, 8419, 6224, 11607, 5171, 9265]"
+10,60.17964072,39.82035928,2,1,7,"Significant Features : m/z = [6980, 4965, 4999, 7009, 11652, 6650, 6277, 5171, 5067, 9265]"
+14,84.7311828,15.2688172,2,2,7,"Significant Features : m/z = [4965, 4999, 5067, 5171, 4620]"
+15,74.09965466,25.90034534,2,2,5,"Significant Features : m/z = [4999, 4965, 5171, 5067, 9265, 6980]"
