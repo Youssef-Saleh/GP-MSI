@@ -1,0 +1,17 @@
+## Breast Cancer files
+significant_breast_proteins.json
+significant_breast_proteins_up.json
+BreastCancerAverageSpectrumValues.csv
+~$ClinicalData.csv
+
+## Gastric Cancer files
+GastricCancerAverageSpectrumValues.csv
+significant_gastric_proteins_up.json
+significant_gastric_proteins.json
+GastricCancerAverageSpectrumValues.csv
+
+## Python
+.ipynb_checkpoints
+
+## R
+.Rhistory
