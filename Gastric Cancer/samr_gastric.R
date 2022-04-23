@@ -20,7 +20,7 @@ samr.obj=samr(d, resp.type="Two class unpaired", nperms=200)
 delta.table <- samr.compute.delta.table(samr.obj)
 }
 
-delta=   1.447855735   #(delta.table) this is the value in delta.table(FDR <0.001)
+delta=   1.859194591   #(delta.table) this is the value in delta.table(FDR <0.001)
 
 
 # Plot the significant proteins
@@ -41,6 +41,7 @@ Significant_Proteins_LO <- tryCatch(
   },
   error = function(e){
     print(e)
+    print('Error avoided by using empty list instead')
     significant_proteins <- list(list())
     write_json(significant_proteins, "significant_gastric_proteins.json")
   }
@@ -55,6 +56,7 @@ Significant_Proteins_HI <- tryCatch(
   },
   error = function(e){
     print(e)
+    print('Error avoided by using empty list instead')
     significant_proteins_up <- list(list())
     write_json(significant_proteins_up, "significant_gastric_proteins_up.json")
   }
@@ -62,4 +64,4 @@ Significant_Proteins_HI <- tryCatch(
 
 Significant_Proteins_HI
 }
-
+  
