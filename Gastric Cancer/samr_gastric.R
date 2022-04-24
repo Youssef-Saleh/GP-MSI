@@ -20,7 +20,7 @@ samr.obj=samr(d, resp.type="Two class unpaired", nperms=200)
 delta.table <- samr.compute.delta.table(samr.obj)
 }
 
-delta=   1.859194591   #(delta.table) this is the value in delta.table(FDR <0.001)
+delta=   1.595460993   #(delta.table) this is the value in delta.table(FDR <0.001)
 
 
 # Plot the significant proteins
@@ -64,4 +64,4 @@ Significant_Proteins_HI <- tryCatch(
 
 Significant_Proteins_HI
 }
-  
+    
