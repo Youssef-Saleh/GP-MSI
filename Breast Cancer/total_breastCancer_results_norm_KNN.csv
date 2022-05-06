@@ -24,7 +24,7 @@ Patient to be predicted/left out,Metastasis-Free Subpopulation,Metastasis Subpop
 23,92.7,7.3,2,2,8,2,"Significant Features : m/z = [6650, 4999, 11652, 4965, 6277, 5067, 5171, 6980, 9265, 6224, 7009]"
 24,96.5,3.5,2,2,6,2,"Significant Features : m/z = [5171, 4965, 4999, 5067]"
 25,10.72,89.28,2,2,11,2,"Significant Features : m/z = [4999, 4965, 11652, 6980, 6277, 5171, 5067]"
-26,99.55,0.45,1,2,9,2,"Significant Features : m/z = [4965, 4999, 5171, 5067, 4620]"
+26,95.54,4.46,2,2,9,2,"Significant Features : m/z = [4965, 4999, 5171, 5067, 4620]"
 27,42.23,57.77,2,2,9,2,"Significant Features : m/z = [4965, 5171, 4999, 5067, 6980, 9265]"
 28,59.39,40.61,2,2,8,2,"Significant Features : m/z = [4965, 4999, 5171, 5067, 9265, 6980, 7009, 4620]"
 29,73.27,26.73,2,2,9,2,"Significant Features : m/z = [6980, 4999, 7009, 4965, 5067, 11652, 6650, 5171, 6277, 9265]"
