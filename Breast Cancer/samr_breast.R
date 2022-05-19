@@ -7,7 +7,7 @@
 
 # Running SAMR Algorithm and creating delta table
 {
-setwd("C:/Users/omars/Desktop/GP-MSI/Breast Cancer") # Change working directory when needed
+setwd("E:/GP-MSI/Breast Cancer") # Change working directory when needed
 joindata <- read.csv("BreastCancerAverageSpectrumValues.csv")
 msdata <- joindata[,1:62]
 
@@ -19,7 +19,7 @@ delta.table <- samr.compute.delta.table(samr.obj)
 }
 
 
-delta=   1.2205173907   #(delta.table) this is the value in delta.table(FDR <0.001)
+delta=0.8632437349  #(delta.table) this is the value in delta.table(FDR <0.001)
 
 
 # Plot the significant proteins
